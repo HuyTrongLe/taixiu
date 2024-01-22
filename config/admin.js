@@ -10,7 +10,7 @@ let TamHungPercent           = require('../app/Models/TamHung/TamHung_percent');
 
 Admin.estimatedDocumentCount().exec(function(err, total){
 	if (total == 0) {
-		Admin.create({'username': 'huytronglee', 'password': generateHash('123'), 'rights': 9, 'regDate': new Date()});
+		Admin.create({'username': 'huytronglee', 'password': generateHash('123321'), 'rights': 9, 'regDate': new Date()});
 	}
 })
 
