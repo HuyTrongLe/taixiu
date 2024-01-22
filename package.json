@@ -1,5 +1,5 @@
 {
-	"name": "RedVip",
+	"name": "VIP GAME",
 	"version": "1.17.02",
 	"description": "Server game By MrT98 (Red T)",
 	"main": "server.js",
@@ -33,7 +33,7 @@
 		"request": "^2.88.0",
 		"saslprep": "^1.0.3",
 		"shortid": "^2.2.15",
-		// "socket.io": "^4.2.0",
+		"socket.io": "^4.2.0",
 		"svg-captcha": "^1.4.0",
 		"svg2img": "^0.9.3",
 		"validator": "^11.1.0",
