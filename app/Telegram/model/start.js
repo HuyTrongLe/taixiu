@@ -16,7 +16,7 @@ module.exports = function(bot, id) {
 				parse_mode: 'markdown',
 			    reply_markup: {
 			      	keyboard: [
-				        [{text: 'CHIA SẺ SỐ ĐIỆN THOẠI', request_contact: true}],
+				        [{text: 'CHIA SẺ SỐ ĐT', request_contact: true}],
 				    ],
 				    resize_keyboard: true,
 			    }
